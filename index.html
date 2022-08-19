@@ -19,19 +19,22 @@
 </span>
 </div>
 </head>
+<?php $hitokoto = file_get_contents('http://app.wegal.top/api.php'); ?>
 <body>
 <div id="top">
 <main id="top_main">
 <div id="top_logo"><img src="src/tx2.png" onmouseover="mouseOver()" onmouseout="mouseOut()" id="mainimg"></div>
 <div id="top_title"><img id="top_title01" alt="" src="src/toptitle01.png">
 <br class="top_hr_style01">
-<a class="top_nav" >一个真正属于Galgame爱好者的世界</a>
-<a class="top_nav" >网站遇到无法访问的情况不要着急，可以等几天再试试，我们会尽快修复的</a>
+<a class="top_nav" >不忘初心，守护热爱！</a><span style="color:#00ccff;"><a class="top_nav" >网站遇到无法访问的情况不要着急，可以等几天再试试，我们会尽快修复的</a>
+</p>
+ 
 
-  <a href="http://cxgal.ml/" title="初心Galgame（cxgal.ml）" class="button button-rounded button-plain button-small-caps button-border" target="_blank">初心Galgame（cxgal.ml）</a>
-  <a href="http://cxgal.tk/" title="初心Galgame（cxgal.tk）" class="button button-rounded button-plain button-small-caps button-border" target="_blank">初心Galgame（cxgal.tk）</a>
-  <a href="http://cxgal.tablemates.cn/" title="初心Galgame（紧急站点）" class="button button-rounded button-plain button-small-caps button-border"target="_blank" >初心galgame（紧急站点）</a>
-  <a href="https://t.me/CXgal" title="备用TG群" class="button button-rounded button-plain button-small-caps button-border" target="_blank" >备用TG群</a>
+
+  <a href="https://wegal.top/" title="点击进入" class="button button-rounded button-plain button-small-caps button-border" target="_blank">官方网站</a>
+
+ <a href="https://wegal.top/index.php/2022/08/19/%e8%bf%99%e9%87%8c%e6%98%af%e5%88%9d%e5%bf%83galgame%ef%bc%81/" title="点击进入" class="button button-rounded button-plain button-small-caps button-border" target="_blank">交流群</a>
+
 
 
   </div>
@@ -42,7 +45,7 @@
 <hr class="top_hr_style02">
 (°ˊДˋ°)つ友情链接：<a href="http://www.yyddtj.top">忧郁的DT君</a>  <a href="https://www.slokey.top/">saber</a>
 <hr class="top_hr_style02">
-<a href="http://cxgal.tablemates.cn/">初心galgame</a> copyright © 2022-2090  All Rights Reserved. <a href="http://cxgal.tablemates.cn/"></a>
+<a href="http://cxgal.tablemates.cn/">初心社 APP</a> copyright © 2022-2022  All Rights Reserved. <a href="http://cxgal.tablemates.cn/"></a>
 </span>
 </footer>
 </body>
@@ -73,7 +76,7 @@ bodyBgs[12] = "https://api.ghser.com/random/api.php";
 		var randomBgIndex = Math.round( Math.random() * 12 );
 		var img1= document.getElementById('bgimg');
 		img1.style.backgroundImage='url(' + bodyBgs[randomBgIndex] + ')';
-	        window.setTimeout(function(){change()},10000);
+	        window.setTimeout(function(){change()},1000);
 	}
 	change();
 </script>
