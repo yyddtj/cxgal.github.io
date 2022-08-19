@@ -26,7 +26,8 @@
 <div id="top_logo"><img src="src/tx2.png" onmouseover="mouseOver()" onmouseout="mouseOut()" id="mainimg"></div>
 <div id="top_title"><img id="top_title01" alt="" src="src/toptitle01.png">
 <br class="top_hr_style01">
-<a class="top_nav" >不忘初心，守护热爱！</a><span style="color:#00ccff;"><a class="top_nav" >网站遇到无法访问的情况不要着急，可以等几天再试试，我们会尽快修复的</a>
+<a class="top_nav" >不忘初心，守护热爱！</a><span style="color:#00ccff;"></a>
+<a class="top_nav" >网站遇到无法访问的情况不要着急，可以等几天再试试，我们会尽快修复的</a>
 </p>
  
 
@@ -76,7 +77,7 @@ bodyBgs[12] = "https://api.ghser.com/random/api.php";
 		var randomBgIndex = Math.round( Math.random() * 12 );
 		var img1= document.getElementById('bgimg');
 		img1.style.backgroundImage='url(' + bodyBgs[randomBgIndex] + ')';
-	        window.setTimeout(function(){change()},1000);
+	        window.setTimeout(function(){change()},10000);
 	}
 	change();
 </script>
